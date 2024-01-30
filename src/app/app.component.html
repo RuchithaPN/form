@@ -1,0 +1,10 @@
+
+
+<button (click)="showPopup()">Open Pop-up Form</button>
+
+<app-new *ngIf="showingPopup" (closed)="showingPopup = false"></app-new>
+
+
+
+
+<router-outlet></router-outlet>
